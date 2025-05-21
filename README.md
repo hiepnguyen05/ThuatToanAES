@@ -5,13 +5,11 @@
 </h2>
 <br>
 <h2 align="center">
-   CRYPTOGRAPHY AND CYBER SECURITY
+   Nguyễn Ngọc Hiệp
 </h2>
 <br>
 <div align="center">
     <p align="center">
-        <img src="aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="https://github.com/hiepnguyen05/ThuatToanAES/blob/main/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-05-21%20153358.png?raw=true" alt="DaiNam University Logo" width="200"/>
     </p>
 </div>
