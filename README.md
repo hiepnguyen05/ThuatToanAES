@@ -1,15 +1,57 @@
-<h2 align="center">
-    <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-    🎓 Faculty of Information Technology (DaiNam University)
-    </a>
-</h2>
-<br>
-<h2 align="center">
-   Nguyễn Ngọc Hiệp
-</h2>
-<br>
-<div align="center">
-    <p align="center">
-        <img src="https://github.com/hiepnguyen05/ThuatToanAES/blob/main/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-05-21%20153358.png?raw=true" alt="DaiNam University Logo" width="200"/>
-    </p>
-</div>
+<h2 align="center">Ứng dụng Mã hóa và Giải mã Dữ liệu bằng AES</h2>
+
+<p>
+Dự án bao gồm hai ứng dụng web riêng biệt, được xây dựng bằng Python và Flask, nhằm thực hiện việc bảo mật dữ liệu bằng thuật toán AES (Advanced Encryption Standard).
+</p>
+
+<h3>Chức năng của ứng dụng</h3>
+
+<ul>
+  <li><strong>Ứng dụng Mã hóa (Encrypt):</strong>
+    <ul>
+      <li>Nhập khóa bí mật bất kỳ</li>
+      <li>Tải lên file dữ liệu bất kỳ</li>
+      <li>Mã hóa nội dung bằng thuật toán AES</li>
+      <li>Tải về file đã được mã hóa</li>
+    </ul>
+  </li>
+  <li><strong>Ứng dụng Giải mã (Decrypt):</strong>
+    <ul>
+      <li>Nhập đúng khóa đã dùng khi mã hóa</li>
+      <li>Tải lên file đã mã hóa</li>
+      <li>Giải mã và tải về file gốc</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Công nghệ sử dụng</h3>
+
+<ul>
+  <li>Python 3</li>
+  <li>Flask</li>
+  <li>HTML thuần</li>
+  <li>Thuật toán AES</li>
+</ul>
+
+<h3>Hướng dẫn sử dụng</h3>
+
+<ol>
+  <li>Cài đặt thư viện: <code>pip install flask pycryptodome</code></li>
+  <li>Chạy ứng dụng mã hóa: <code>python encrypt_app.py</code></li>
+  <li>Chạy ứng dụng giải mã: <code>python decrypt_app.py</code></li>
+  <li>Truy cập hai ứng dụng tại hai địa chỉ localhost khác nhau (ví dụ: <code>localhost:5000</code> và <code>localhost:5001</code>)</li>
+</ol>
+
+<h3>Giao diện ứng dụng</h3>
+
+<p><strong>1. Giao diện ứng dụng mã hóa:</strong></p>
+<p align="center">
+  <img src="https://github.com/hiepnguyen05/ThuatToanAES/blob/main/MaHoaImg.png?raw=true" alt="Giao diện mã hóa" width="600">
+</p>
+
+<p><strong>2. Giao diện ứng dụng giải mã:</strong></p>
+<p align="center">
+  <img src="https://github.com/hiepnguyen05/ThuatToanAES/blob/main/GiaiMaImg.png?raw=true" alt="Giao diện giải mã" width="600">
+</p>
+
+<p><strong>Tác giả:</strong> Nguyễn Ngọc Hiệp - Khoa Công nghệ thông tin, Đại học Đại Nam</p>
